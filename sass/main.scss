@@ -80,7 +80,7 @@ $color_4: #f1f1f1;
         .child_div {
             width: 100%;
             height: 82vh;
-            background-image: linear-gradient(120deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%),
+            background: linear-gradient(120deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%),
                 url("../images/index_img_1.jpeg");
             background-size: 100%;
             background-position: top;
@@ -120,13 +120,13 @@ $color_4: #f1f1f1;
     }
     .item_child_2 {
         .child_div {
-            background-image: linear-gradient(120deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%),
+            background: linear-gradient(120deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%),
                 url("../images/index_img_2.jpeg");
         }
     }
     .item_child_3 {
         .child_div {
-            background-image: linear-gradient(120deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%),
+            background: linear-gradient(120deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%),
                 url("../images/index_img_3.jpeg");
         }
     }
