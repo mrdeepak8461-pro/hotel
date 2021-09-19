@@ -103,11 +103,8 @@ body {
 .index_header .item .child_div {
   width: 100%;
   height: 82vh;
-<<<<<<< HEAD
-  background: linear-gradient(120deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%), url("../images/weddingbg.jpg");
-=======
-  background-image: linear-gradient(120deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%), url("../images/index_img_1.jpeg");
->>>>>>> c62361951a293231434f79756dddb7fb73efd14f
+  background: linear-gradient(120deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%),
+  url("https://mrdeepak8461-pro.github.io/hotel/images/weddingbg.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: top;
@@ -156,26 +153,22 @@ body {
 }
 
 .index_header .item_child_2 .child_div {
-<<<<<<< HEAD
-  background: linear-gradient(120deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%), url("../images/engagementbg.jpg");
+
+ background: linear-gradient(120deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%),
+ url("https://mrdeepak8461-pro.github.io/hotel/images/engagementbg.jpg");
   background-size: 100%;
 }
 
 .index_header .item_child_3 .child_div {
-  background: linear-gradient(120deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%), url("../images/haldibg.jpg");
+ background: linear-gradient(120deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%),
+ url("https://mrdeepak8461-pro.github.io/hotel/images/haldibg.jpg");
   background-size: 100%;
 }
 
 .index_header .item_child_4 .child_div {
-  background: linear-gradient(120deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%), url("../images/receptionbg.jpg");
+ background: linear-gradient(120deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%),
+ url("https://mrdeepak8461-pro.github.io/hotel/images/receptionbg.jpg");
   background-size: 100%;
-=======
-  background-image: linear-gradient(120deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%), url("../images/index_img_2.jpeg");
-}
-
-.index_header .item_child_3 .child_div {
-  background-image: linear-gradient(120deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%), url("../images/index_img_3.jpeg");
->>>>>>> c62361951a293231434f79756dddb7fb73efd14f
 }
 
 .what_we_do {
