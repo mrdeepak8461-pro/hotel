@@ -66,6 +66,16 @@ $color_4: #f1f1f1;
     }
 }
 
+.inner {
+    overflow: hidden;
+    img {
+        transition: all 1.5s ease;
+        cursor: pointer;
+    }
+    img:hover {
+        transform: scale(1.1);
+    }
+}
 .navbar {
     padding: 0.3rem rem 2rem;
     .navbar-brand {
@@ -80,9 +90,9 @@ $color_4: #f1f1f1;
         .child_div {
             width: 100%;
             height: 82vh;
-            background: linear-gradient(120deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%),
-                url("../images/index_img_1.jpeg");
+            background: linear-gradient(120deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%), url("../images/weddingbg.jpg");
             background-size: 100%;
+            background-repeat: no-repeat;
             background-position: top;
             box-shadow: 0 10px -6px #000;
 
@@ -121,13 +131,21 @@ $color_4: #f1f1f1;
     .item_child_2 {
         .child_div {
             background: linear-gradient(120deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%),
-                url("../images/index_img_2.jpeg");
+                url("../images/engagementbg.jpg");
+            background-size: 100%;
         }
     }
     .item_child_3 {
         .child_div {
+            background: linear-gradient(120deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%), url("../images/haldibg.jpg");
+            background-size: 100%;
+        }
+    }
+    .item_child_4 {
+        .child_div {
             background: linear-gradient(120deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%),
-                url("../images/index_img_3.jpeg");
+                url("../images/receptionbg.jpg");
+            background-size: 100%;
         }
     }
 }
@@ -138,6 +156,11 @@ $color_4: #f1f1f1;
         margin-top: 2rem;
         .card {
             border: none;
+            img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+            }
             .card-body {
                 .card-title {
                     color: $color_1;
@@ -172,6 +195,7 @@ $color_4: #f1f1f1;
         height: 360px;
         object-fit: cover;
         object-position: top;
+        border-radius: 0.5rem;
     }
     .h3 {
         font-size: 2rem;
@@ -205,7 +229,7 @@ $color_4: #f1f1f1;
         color: $color_1;
     }
 }
-.event_types {
+.our_specialists {
     margin-top: 3rem;
     ul {
         margin: 2rem 0rem;
@@ -213,6 +237,7 @@ $color_4: #f1f1f1;
             .nav-link {
                 border: 1px solid $color_3;
                 margin-right: 0.8rem;
+                color: $color_3;
             }
             .active {
                 background-color: $color_1 !important;
@@ -220,51 +245,43 @@ $color_4: #f1f1f1;
             }
         }
     }
-    .row {
-        margin-top: 3rem;
+    .tz-gallery {
         img {
             width: 100%;
-            height: 360px;
+            height: 250px;
+            margin: 0.6rem 0rem;
             object-fit: cover;
             object-position: top;
-        }
-        .h3 {
-            font-size: 2rem;
-        }
-        .p {
-            font-size: 1rem;
-        }
-        .btn_box {
-            .btn:hover {
-                background-color: transparent;
-                color: $color_1;
-            }
+            border-radius: 0.2rem;
         }
     }
 }
 
-.team {
+.wedding_and_event {
     margin-top: 3rem;
     background-color: $color_4;
     padding: 2rem 0rem;
     .row {
         margin-top: 3rem;
-        .box {
-            text-align: center;
+        .card {
+            border-radius: 0.5rem;
+            border: none;
             img {
-                width: 250px;
-                height: 250px;
+                width: 100%;
+                height: 300px;
                 object-fit: cover;
-                object-position: top;
             }
-            h4 {
-                width: 250px;
-                margin-top: 1rem;
-                background-color: $color_1;
-                text-align: start;
-                color: white;
-                padding: 0.8rem 0.4rem;
-                font-size: 1.2rem;
+            h5 {
+                font-weight: bold;
+                color: black;
+            }
+            p {
+                color: black;
+            }
+            i {
+                color: $color_1;
+                font-size: 1.8rem;
+                margin-right: 0.5rem;
             }
         }
     }

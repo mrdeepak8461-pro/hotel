@@ -18,3 +18,11 @@ $('.owl-carousel').owlCarousel({
 });
 
 
+baguetteBox.run('.tz-gallery');
+
+
+AOS.init();
+
+AOS.init({
+    duration: 900
+});
